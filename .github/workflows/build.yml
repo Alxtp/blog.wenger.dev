@@ -28,9 +28,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # submodules: true
-          # If using the 'assets' git submodule from Chirpy Starter, uncomment above
-          # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -46,3 +43,7 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           file_pattern: '_site'
+
+      - name: Update Site
+        run: |
+          curl https://blog.wenger.dev/update
