@@ -125,7 +125,7 @@ Congrat! Your site is now public available. But maybe not for long as your publi
 
 ## Cloudflare-DDNS
 This container will automatically adjust the A record to point to your public IP if it changes.
-Create the cofig file by following the instructions here: https://github.com/timothymiller/cloudflare-ddns
+Create the config file by following the instructions here: https://github.com/timothymiller/cloudflare-ddns
 
 When the `config.json` file is prepared you can create the docker image:
 ```yaml
