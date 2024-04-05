@@ -46,4 +46,4 @@ jobs:
 
       - name: Update Site
         run: |
-          curl blog.wenger.dev/update
+          curl "https://blog.wenger.dev/update"
