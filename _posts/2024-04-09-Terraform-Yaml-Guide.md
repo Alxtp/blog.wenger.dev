@@ -162,7 +162,7 @@ resource "azuread_group" "group" {
   display_name     = each.value.name
   owners           = [data.azuread_client_config.current.object_id]
   security_enabled = true
-  members          = data.azuread_users.users[each.key].user_principal_names
+  members          = data.azuread_users.users[each.key].object_ids
 }
 ```` 
 
