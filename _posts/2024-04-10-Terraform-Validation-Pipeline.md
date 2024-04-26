@@ -76,4 +76,43 @@ jobs:
     displayName: 'Checkov'
 ```
 
-To make sure that the pipeline fails only on critical findings or errors I had to run TFLint with `--minimum-failure-severity=error` and Checkov with `--hard-fail-on CRITICAL`.
+For TFLint you need to add a file called `.tflint.hcl`{: .filepath} in the root of your directory which contains the providers you want to validate. In my case I use `azurerm`.
+```hcl
+plugin "azurerm" {
+  enabled = true
+  version = "0.26.0"
+  source  = "github.com/terraform-linters/tflint-ruleset-azurerm"
+}
+```
+{: file=".tflint.hcl" }
+
+> To make sure that the pipeline fails only on critical findings or errors, I ran TFLint with `--minimum-failure-severity=error` and Checkov with `--hard-fail-on CRITICAL`.
+{: .prompt-info }
+
+An there you go, you built yourself a pipeline with the most important terraform static code analyzers.
+
+## Example Run
+Following I will show you the pipeline in action with a simple terraform setup with a few obvious mistakes to check what each tool has to say.
+
+```hcl
+locals {
+  var_with_no_use = "This is a variable with no use"
+}
+
+resource "azurerm_resource_group" "example" {
+  name     = "example-resources"
+  location = "switzerlandnorth"
+}
+
+resource "azurerm_storage_account" "example" {
+  name                      = "storageaccountname"
+  resource_group_name       = azurerm_resource_group.example.name
+  location                  = azurerm_resource_group.example.location
+  account_tier              = "Standard"
+  account_replication_type  = "LRS"
+  min_tls_version           = "TLS1_0" # Outdated tls version
+  enable_https_traffic_only = false # http enabled
+}
+
+```
+{: file="main.tf" }
