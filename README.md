@@ -1,3 +1,3 @@
 # Alex's Blog
 
-My personal blog based on Jekyll with the chirpy theme.
+My personal blog at https://blog.wenger.dev/ based on Jekyll with the chirpy theme.
