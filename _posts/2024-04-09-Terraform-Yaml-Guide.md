@@ -1,5 +1,5 @@
 ---
-title: "YAML Magic: Automating Terraform Like a Pro"
+title: "Automate Terraform with Yaml"
 date: 2024-04-09 21:00:00 +0200 
 categories: [Terraform]
 tags: [automation, terraform, yaml, iac, devops]

@@ -1,5 +1,5 @@
 ---
-title: "Secure Self-Hosting: A Guide to Automatically Pulling and Hosting Your Static Website from GitHub"
+title: "Automated Hosting of Static Websites with Docker"
 date: 2024-04-01 15:15:00 +0200 
 categories: [Self-Hosting]
 tags: [docker, caddy, github, nginx-proxy-manager, cloudflare, portainer]

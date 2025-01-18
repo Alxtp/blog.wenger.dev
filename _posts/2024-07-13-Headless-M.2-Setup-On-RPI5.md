@@ -4,7 +4,7 @@ date: 2024-07-13 21:00:00 +0200
 categories: [IoT]
 tags: [raspberrypi, m2ssd, nvmessd]
 img_path: /IoT/
-image: preview_rpi5.jpg
+image: rpi5_setup.jpg
 ---
 
 Learn how to set up your Raspberry Pi 5 to boot from a fast M.2 SSD, all without a graphical interface. Actually, not entirely without, because you will need a GUI to create a bootable SD card or USB stick on another device. But you don't need to connect your Raspberry to a monitor. This step-by-step guide covers everything from hardware setup to software configuration for a headless setup on your Pi.
