@@ -1,5 +1,5 @@
 ---
-title: "Simple and Secure: Deploy self-hosted Azure DevOps Agents without PAT"
+title: "Deploy self-hosted Azure DevOps Agents without PAT"
 date: 2024-08-29 21:00:00 +0200
 categories: [Azure]
 tags: [azure, automation, terraform, iac, "azure devops", container, docker]

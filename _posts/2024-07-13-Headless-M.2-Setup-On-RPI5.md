@@ -8,8 +8,6 @@ image: rpi5_setup.jpg
 ---
 
 Learn how to set up your Raspberry Pi 5 to boot from a fast M.2 SSD, all without a graphical interface. Actually, not entirely without, because you will need a GUI to create a bootable SD card or USB stick on another device. But you don't need to connect your Raspberry to a monitor. This step-by-step guide covers everything from hardware setup to software configuration for a headless setup on your Pi.
-![RPI5 Setup](rpi5_setup.jpg)
-_My personal Raspberry Pi 5 Setup with the official cooler and M.2 HAT from Waveshare_
 
 You will need:
 - Another computer to prepare the boot image and SSH into the Pi
