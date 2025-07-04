@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://blog.wenger.dev"
 
 github:
-  username: GreedTP # change to your github username
+  username: Alxtp # change to your github username
 
 social:
   # Change to your full name.
@@ -34,7 +34,7 @@ social:
   name: Alexander Wenger
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/GreedTP # change to your github homepage
+    - https://github.com/Alxtp # change to your github homepage
     # Uncomment below to add more social links
     - https://www.linkedin.com/in/alexander-wenger-2851a922b
 
@@ -83,7 +83,7 @@ comments:
   active: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # Giscus options › https://giscus.app
   giscus:
-    repo: GreedTP/blog.wenger.dev
+    repo: Alxtp/blog.wenger.dev
     repo_id: R_kgDOLoBJ3Q
     category: General
     category_id: DIC_kwDOLoBJ3c4CgH4p
