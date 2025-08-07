@@ -3,7 +3,7 @@ title: "Automated Hosting of Static Websites with Docker"
 date: 2024-04-01 15:15:00 +0200 
 categories: [Self-Hosting]
 tags: [docker, caddy, github, nginx-proxy-manager, cloudflare, portainer]
-img_path: /selfhost/
+media_subpath: /selfhost/
 ---
 
 In this guide I will show you an easy, lightweight and secure way to host your own website at home without showing your IP to the whole world.

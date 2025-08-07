@@ -3,7 +3,7 @@ title: "Automating Terraform and Provider Updates"
 date: 2024-06-15 21:00:00 +0200 
 categories: [Terraform]
 tags: [automation, terraform, azure pipelines, iac, azure devops, renovate]
-img_path: /terraform/
+media_subpath: /terraform/
 ---
 
 As infrastructure as code (IaC) becomes increasingly popular, managing Terraform versions and provider dependencies efficiently is crucial. Discover in this blog post how [Renovate](https://docs.renovatebot.com/) simplifies managing Terraform versions and providers in your Git repository. Renovate allows some very specialized and complex setups, as you can configure a lot and it supports a lot of tools, but I want to show you how easy it is to set it up for Terraform.
@@ -45,6 +45,7 @@ steps:
 
 The only two things you need to do is to reference one or more projects and repositories in which you want to run Renovate with the `RENOVATE_REPOSITORIES` env variable, and create a GitHub personal access token (read-only) that will be used to [fetch changelogs for repositories](https://docs.renovatebot.com/getting-started/running/#githubcom-token-for-changelogs). 
 I stored this token as a secret pipeline variable:
+
 ![Github Token Secret Variable](renovate_github_token.png)
 
 > Make sure the Azure DevOps build service called `PROJECT_NAME Build Service (ORGANISATION_NAME)` has permission to contribute to the specified repositories.

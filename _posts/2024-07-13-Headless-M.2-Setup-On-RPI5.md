@@ -3,7 +3,7 @@ title: "Headless M.2 SSD Setup On Raspberry Pi 5"
 date: 2024-07-13 21:00:00 +0200 
 categories: [IoT]
 tags: [raspberrypi, m2ssd, nvmessd]
-img_path: /IoT/
+media_subpath: /IoT/
 image: rpi5_setup.jpg
 ---
 

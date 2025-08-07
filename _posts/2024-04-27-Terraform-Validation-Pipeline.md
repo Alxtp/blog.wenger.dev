@@ -3,7 +3,7 @@ title: "Create Terraform Validation Pipelines"
 date: 2024-04-27 21:00:00 +0200 
 categories: [Terraform]
 tags: [automation, terraform, azure pipelines, iac, devops, static code analysis, trivy, tflint, semgrep oss, checkov]
-img_path: /terraform/
+media_subpath: /terraform/
 ---
 
 In this blog post, I want to show you how to create an Azure pipeline that can be used to automatically validate your Terraform code and make suggestions for security, quality and best practices so that you can improve your scrappy code. How? using static code analysis tools! There are a lot out there for Terraform and the major private cloud providers, but I have picked just a few that have made the best impression. For a great comparison of these tools, check out this [post](https://devdosvid.blog/2024/04/16/a-deep-dive-into-terraform-static-code-analysis-tools-features-and-comparisons/).

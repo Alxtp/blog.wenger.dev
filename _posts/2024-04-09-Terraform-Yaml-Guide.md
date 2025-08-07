@@ -3,7 +3,7 @@ title: "Automate Terraform with Yaml"
 date: 2024-04-09 21:00:00 +0200 
 categories: [Terraform]
 tags: [automation, terraform, yaml, iac, devops]
-img_path: /terraform/
+media_subpath: /terraform/
 image: preview_yaml.jpg
 ---
 
