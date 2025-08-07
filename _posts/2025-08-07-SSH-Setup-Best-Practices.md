@@ -97,7 +97,7 @@ Host github.com
 This configuration will make sure that the key named `github` is used when connecting to github.com.
 Now the connection works:
 
-```
+```bash
 ssh git@github.com
 Enter passphrase for key '/home/username/.ssh/github':
 PTY allocation request failed on channel 0
