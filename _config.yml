@@ -16,10 +16,10 @@ timezone: Europe/Zurich
 
 title: Alex's Blog # the main title
 
-tagline: A Collection of my boring Notes # it will display as the sub-title
+tagline: A collection of docs that might be usefull, or not # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A personal blog page about various IT topics.
+  A personal blog about various IT topics.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
