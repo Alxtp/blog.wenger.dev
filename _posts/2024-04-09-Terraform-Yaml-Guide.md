@@ -4,7 +4,6 @@ date: 2024-04-09 21:00:00 +0200
 categories: [Terraform]
 tags: [automation, terraform, yaml, iac, devops]
 media_subpath: /terraform/
-image: preview_yaml.jpg
 ---
 
 Following scenario: You have created an extremely well-designed Terraform that automates your boring and repetitive task, BUT you are the only one who knows how to take advantage of it. 
